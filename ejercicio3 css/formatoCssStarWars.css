@@ -1,0 +1,25 @@
+ .imperioFondo{
+    background-color: red;
+ }
+ .rebeldesFondo{
+     background-color: royalblue;
+ }
+ #DarthVader{
+    font-size: large;
+ }
+ #LukeSkywalker{
+     font-style: italic;
+ }
+ .bordeParaSoldados{
+    border: double;
+    border-color:black;
+ }
+ .espacioDeLetraSoldados{
+     letter-spacing: 3px;
+ }
+ .centrado{
+    text-align: center;
+ }
+ .enMayuscula{
+    text-transform: uppercase;
+ }
