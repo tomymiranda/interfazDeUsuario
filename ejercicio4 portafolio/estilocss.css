@@ -1,0 +1,8 @@
+body{
+    color: black;
+    background-color: rgb(145, 250, 198);
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
