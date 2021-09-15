@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ejercicio</title>
+  <link rel="stylesheet" href="mouseCss.css" type="text/css">
+  
+</head>
+<body class ="tamanio cursorOculto">
+<img  id = "im"class = "laPosicion gif " src="https://media.giphy.com/media/MtQxKzhytFsmQ/giphy.gif">
+  
+
+<script>
+var gif = document.querySelector("img.gif");
+
+document.body.addEventListener("mousemove",function(infoEvento) {
+  //console.log("El mouse está en X: " + infoEvento.clientX + " Y: " + infoEvento.clientY);
+  gif.setAttribute("top",infoEvento.clientY);
+  gif.setAttribute("left",infoEvento.clientX);
+})
+
+document.body.addEventListener("mousemove", function(infoEvento) {
+    if(!!infoEvento.which){
+      
+     
+      document.getElementById("im").style.left = infoEvento.clientX;
+      
+    }
+   
+})
+</script>
+</body>
+</html>

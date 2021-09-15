@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>actividad</title>
+  <link rel="stylesheet" href="estilocss.css" type="text/css">
+</head>
+    <body>
+
+        <div>
+            <h1>Hola mundo</h1>
+        </div>
+
+         <script type= "text/javaScript">
+            var $div = document.querySelector("div");
+            //$p.style.backgroundColor = "cyan";
+            //$p.style.height = 15;
+            //$p.style.width = 15;
+            $div.classList.add("square");
+
+            setInterval(verificarClase,1000);
+
+            function verificarClase(params) {
+                $div.classList.toggle("square");
+            }
+        </script> 
+
+    </body>
+</html>

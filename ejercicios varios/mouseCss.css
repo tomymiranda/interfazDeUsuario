@@ -1,0 +1,13 @@
+.laPosicion{
+    position: fixed;
+    left:0px;
+    top:0px
+}
+.tamanio{
+    /*100vh no lo ponia al 100 de la pantalla por eso la eleccion de 100vmax*/
+    height: 100vmax;
+    
+}
+.cursorOculto{
+    cursor: none;
+}

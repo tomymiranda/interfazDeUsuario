@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ejercicio 3</title>
+</head>
+<body>
+    <div id = "source">hola</div>
+  
+    <div id = "destination"> mundo</div>
+
+    <s id = "swap_1"></s>
+    <s id = "swap_2"></s>
+    <script>
+
+        var textoSource = document.querySelector("#source").textContent;
+        var textoDestino = document.querySelector("#destination").textContent;
+        document.querySelector("#swap_1").textContent = textoDestino;
+        document.querySelector("#swap_2").textContent = textoSource;
+        textoDestino.textContent = textoSource;
+
+
+
+    </script>
+</body>
+</html>

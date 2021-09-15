@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ejercicio</title>
+  <link rel="stylesheet" href="resaltadorCss.css" type="text/css">
+
+</head>
+<body>
+    <ul class = "parrafo">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam ratione dicta exercitationem totam nostrum culpa incidunt voluptatibus similique vel illo veritatis ullam error dignissimos voluptatem eos quos, quae modi voluptatum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor debitis nam placeat. Quae sit consectetur magni beatae ratione amet illo, eius alias error suscipit vel magnam facere placeat. Qui, nostrum.  </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus porro tempore iure impedit fugit numquam consectetur sequi hic vitae quo suscipit repellendus, officiis inventore quae cum atque sed repudiandae exercitationem.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde eveniet consequatur aliquam eius veniam inventore, magnam rerum tempore a, fuga itaque. Beatae voluptatem dicta hic expedita quas ullam esse sunt?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, obcaecati eos minus asperiores suscipit placeat amet magnam nobis voluptates eum ex pariatur labore odit, repellat excepturi exercitationem natus architecto dolorum.</p>
+    </ul>
+    <script>
+        //como segundo elemento de querySelectorAll va la etiqueta q se busca recorrer
+        var lis = document.querySelectorAll(".parrafo > p");
+        for (var i = 0; i<lis.length;i++){
+            lis[i].addEventListener("click",function() {
+                this.classList.toggle("resaltador");    
+            })
+        }
+    </script>
+</body>
+</html>

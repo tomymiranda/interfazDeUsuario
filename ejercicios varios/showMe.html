@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ejericicio</title>
+  <link rel="stylesheet" href="ocultoCss.css" type="text/css">
+</head>
+<body>
+<button class="botonMoney">Show me the Money</button>
+<button class="botonMiami">Show me Miami</button>
+<button class="botonRicky">Show me Maiameee</button><br>
+ 
+<img class = "oculto imgPlata imagen" src="plata.jpg"> <br>
+<img class = "oculto imgMia imagen" src ="miami-1.jpg"><br>
+<img class = "oculto imgRicky imagen" src="fort-int.jpg"><br>
+
+<script>
+document.querySelector(".botonMoney").addEventListener("click", function(){
+  document.querySelector(".imgPlata").classList.toggle("oculto");
+});
+
+document.querySelector(".botonMiami").addEventListener("click", function(){
+  document.querySelector(".imgMia").classList.toggle("oculto");
+});
+
+document.querySelector(".botonRicky").addEventListener("click", function(){
+  document.querySelector(".imgRicky").classList.toggle("oculto");
+});
+
+function verImagen(){
+    this.classList.toggle("oculto");
+}
+var lis = document.querySelectorAll("img.oculto");
+for (var i = 0; i<lis.length;i++){
+  lis[i].addEventListener("click",verImagen);
+}
+
+
+</script>
+</body>
+</html>
