@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login</title>
+  <link rel="stylesheet" href="entragableCss.css" type="text/css">
+</head>
+<body class="fondo">
+      <img src="logoUnahur.png" class="posicionDeLogoInicio">
+      <input type="text" name="cajaUsuario" placeholder ="Usuario" class="ingresoDeDatos posicionDeIngresoUsuario"><br>
+      <input type="password" name="cajaContrasenia" placeholder ="Contaseña" class="ingresoDeDatos posicionDeIngresoContrasenia"><br>
+      <button id ="botonsito" class="iniciarSesion" >Iniciar Sesion</button>
+<script>
+function redirigir(){
+  window.location.href ="pantallaMenu.html";
+}
+document.getElementById("botonsito").addEventListener("click", redirigir);
+</script>
+</body>
+</html>

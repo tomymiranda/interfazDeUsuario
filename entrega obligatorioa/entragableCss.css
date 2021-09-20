@@ -1,0 +1,100 @@
+.fondo{
+    background-color: white;
+}
+.posicionDeLogoInicio{
+    position: absolute;
+    top: 100px; 
+    left: 110px;
+    width: 428px;
+    height: 428px;
+}
+.ingresoDeDatos{
+    background-color:#49B73F;
+    color: black;
+    width: 324px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 24px;
+}
+.posicionDeIngresoUsuario{
+    position:absolute;
+    top:200px;
+    left:800px;
+}
+.posicionDeIngresoContrasenia{
+    position:absolute;
+    top:280px;
+    left:800px;
+}
+.iniciarSesion{
+    background-color:#5AB1BF;
+    color: black;
+    border-radius: 8px;
+    width: 324px;
+    height: 48px;
+    font-size: 24px;
+    position:absolute;
+    top:368px;
+    left:800px;
+}
+.turnos{
+    background-color:#49B73F;
+    color: black;
+    width: 320px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 24px;
+}
+.posicionMisTurnos{
+    position:absolute;
+    top:272px;
+    left:800px;
+}
+.posicionMisSolicitudes{
+    position:absolute;
+    top:368px;
+    left:800px;
+}
+.posicionDeLogoUsuario{
+    float: right;
+}
+.tamanioLogoUsuario{
+    width: 80px;
+    height: 80px;
+    /*font-family para cambiar el tipo de fuente*/
+}
+.estiloTabla{
+    border-collapse: collapse; 
+    background-color: #49B73F;
+    position:absolute;
+    width: 400px;
+    height: 112px;
+    border-radius: 8px;
+}
+.posicionTabla1{
+    top:104px;
+    left:800px;
+}
+.posicionTabla2{
+    top:256px;
+    left:800px;
+}
+.posicionTabla3{
+    top:400px;
+    left:800px;
+}
+.tamanioDePedido{
+    font-size: 24px;
+}
+.volverAlInicio{
+    background-color:#5AB1BF;
+    color: black;
+    border-radius: 8px;
+    width: 176px;
+    height: 48px;
+    font-size: 24px;
+    position:absolute;
+    top:512px;
+    left:248px;
+}
+::placeholder { color:black; }

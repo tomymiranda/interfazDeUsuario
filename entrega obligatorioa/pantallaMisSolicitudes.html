@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mis solicitudes</title>
+  <link rel="stylesheet" href="entragableCss.css" type="text/css">
+</head>
+<body class="fondo">
+
+    <img src="logoUnahur.png" class="posicionDeLogoInicio">
+    <img src="usuario.png" class="posicionDeLogoUsuario tamanioLogoUsuario">
+    <table id ="tabla1" class="estiloTabla posicionTabla1">
+      <tr>
+        <td class="tamanioDePedido">Ped. plan de estudios</td>
+      </tr>
+      <tr>
+        <td>23/06/2021</td>
+      </tr>
+      <tr>
+        <td>ped. de informacion del plan de estudios.</td>
+      </tr>
+      </table>
+    <table id ="tabla2" class="estiloTabla posicionTabla2">
+        <tr>
+          <td class="tamanioDePedido">Ped. de mail institucional</td>
+        </tr>
+        <tr>
+          <td>1/06/2021</td>
+        </tr>
+        <tr>
+          <td>ped. de como tramitar el mail institucional.</td>
+        </tr>
+        </table>  
+    <table id ="tabla3" class="estiloTabla posicionTabla3">
+          <tr>
+            <td class="tamanioDePedido">Ped. de regulacion de materias</td>
+          </tr>
+          <tr>
+            <td>20/05/2021</td>
+          </tr>
+          <tr>
+            <td>ped. de como tramitar validaciones.</td>
+          </tr>
+    </table>     
+    <button id ="botonVolverAlInicio" class="volverAlInicio" >Volver Al Inicio</button>
+    <script>
+
+    function redirigir(){
+      window.location.href ="pantallaMenu.html";
+    }
+    document.getElementById("botonVolverAlInicio").addEventListener("click", redirigir);
+
+    </script>
+</body>
+</html>

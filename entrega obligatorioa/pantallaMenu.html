@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Menu</title>
+  <link rel="stylesheet" href="entragableCss.css" type="text/css">
+</head>
+<body class="fondo">
+
+    <img src="logoUnahur.png" class="posicionDeLogoInicio">
+    <img src="usuario.png" class="posicionDeLogoUsuario tamanioLogoUsuario">
+    <button class="turnos posicionMisTurnos"> Solicitar Turno</button>
+    <button id="botonMisSolicitudes" class="turnos posicionMisSolicitudes">Mis Solicitudes</button>
+  <script>
+      function redirigir(){
+        window.location.href ="pantallaMisSolicitudes.html";
+      }
+      document.getElementById("botonMisSolicitudes").addEventListener("click", redirigir);
+  </script>
+</body>
+</html>
